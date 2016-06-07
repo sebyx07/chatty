@@ -1,0 +1,8 @@
+<div class="jumbotron">
+  <% if current_user %>
+    <h1><%= current_user.username.capitalize %> welcome to Chatty!</h1>
+  <% else %>
+    <h1>Welcome to Chatty!</h1>
+  <% end %>
+</div>
+
